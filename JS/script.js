@@ -56,8 +56,12 @@ generateButton.addEventListener('click', function() {
     //CALCOLARE PREZZO FINALE (prezzo biglietto - sconto)
     let finalPrice = `${(priceTicket - discount).toFixed(2)} ${'€'}`;
     console.log('final price', finalPrice);
-    // STAMPARE PREZZO FINALE
-
+    
+    // STAMPARE PREZZO FINALE nel div con class user-message
+    const userMessageDiv = document.querySelector('.user-message');
+    console.log(userMessageDiv);
+    userMessageDiv.innerHTML = 'Prezzo del biglietto: ' + finalPrice;
+    
 });
 
 
