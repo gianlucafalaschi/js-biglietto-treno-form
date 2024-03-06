@@ -54,7 +54,7 @@ generateButton.addEventListener('click', function() {
     }
 
     //CALCOLARE PREZZO FINALE (prezzo biglietto - sconto)
-    let finalPrice = (priceTicket - discount).toFixed(2);
+    let finalPrice = `${(priceTicket - discount).toFixed(2)} ${'€'}`;
     console.log('final price', finalPrice);
     // STAMPARE PREZZO FINALE
 
