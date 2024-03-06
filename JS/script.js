@@ -22,6 +22,7 @@ Come detto questa mattina nella creazione del form non utilizzate il tag <form> 
 //QUANDO L'UTENTE CLICCA SUL BOTTONE LEGGO I VALORI DELLE INPUT
 const generateButton = document.querySelector('#generate-button');
 console.log(generateButton);
+
  
 // CALCOLO LO SCONTO
 
