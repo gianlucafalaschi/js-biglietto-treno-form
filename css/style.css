@@ -80,6 +80,25 @@
     margin-bottom: 10px;
 }
 
+/* --------
+   BUTTONS
+----------*/
+.btn {
+    padding: 6px 8px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    border: 1px solid #B91450;
+    color: #B91450;
+}
+
+.btn-primary:hover {
+    background-color: #B91450;
+    color: white;
+}
+
 
 /* ----------------
    FORM  CONTAINER
