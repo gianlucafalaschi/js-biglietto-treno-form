@@ -53,14 +53,52 @@
     color: #B91450;
 }
 
+/* --------
+   TEXT
+----------*/
+.text-center {
+    text-align: center;
+}
 
 /* --------
-   FORM 
+   MARGIN
 ----------*/
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+
+/* ----------------
+   FORM  CONTAINER
+-----------------*/
 
 .form-container {
     padding: 20px 0;
     background-color: white;
     border-radius: 8px;
     width: 70%;
+}
+
+.row1 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* ----------------
+   TICKET  CONTAINER
+-----------------*/
+
+.ticket-container {
+    padding: 20px 0;
+    background-color: white;
+    border-radius: 8px;
+    width: 70%;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+    
 }
