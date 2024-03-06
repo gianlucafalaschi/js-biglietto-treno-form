@@ -23,8 +23,12 @@ Come detto questa mattina nella creazione del form non utilizzate il tag <form> 
 const generateButton = document.querySelector('#generate-button');
 console.log(generateButton);
 generateButton.addEventListener('click', function() {
-    const userKm = document.querySelector('#user-km').value;
+    const userKm = parseInt(document.querySelector('#user-km').value);
     console.log(userKm);
+
+    const userAge = parseInt(document.querySelector('#user-age').value);
+    console.log(userAge);
+
 });
 // CALCOLO LO SCONTO
 
