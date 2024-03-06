@@ -7,24 +7,31 @@
     <title>Biglietto treno form</title>
 </head>
 <body>
-    <div class="form-container">
-        <div class="input-container">
-            <label>Kilometri da percorrere</label>
-            <input id="user-km" type="text">
+    <section class="bg-red">
+        <div class="container debug">
+            <div class="row">
+                <h1 class="color-white">Calcola il prezzo del tuo biglietto</h1>
+                <div class="form-container debug">
+                    <div class="input-container debug">
+                        <label>Kilometri da percorrere</label>
+                        <input id="user-km" type="text">
+                    </div>
+                    
+                    <div class="input-container debug">
+                        <label>Eta'</label>
+                        <input id="user-age" type="text">
+                    </div>
+                    
+                    <button id="generate-button">Genera il biglietto</button>
+                </div>
+            </div>  
+    
+    
+                <h3 id="message"></h3>
+            
         </div>
-        
-        <div class="input-container">
-            <label>Eta'</label>
-            <input id="user-age" type="text">
-        </div>
-        
-        <button id="generate-button">Genera il biglietto</button>
-        
-    </div>
-
-
-
-    <h3 id="message"></h3>
+    </section>
+    
     <script type="text/javascript" src="JS/script.js"></script>
 </body>
 </html>
