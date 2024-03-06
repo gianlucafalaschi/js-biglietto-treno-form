@@ -24,17 +24,26 @@ const generateButton = document.querySelector('#generate-button');
 console.log(generateButton);
 generateButton.addEventListener('click', function() {
     const userKm = parseInt(document.querySelector('#user-km').value);
-    console.log(userKm);
+    console.log('km', userKm);
 
     const userAge = parseInt(document.querySelector('#user-age').value);
-    console.log(userAge);
+    console.log('age', userAge);
+
+    // CALCOLARE PREZZO IN BASE AI KM
+    //costante prezzo al km
+    const priceKm = 0.21;
+    const priceTicket = parseInt(`${userKm * priceKm}`);
+    console.log('ticketprice', priceTicket);
+    // sconto con conditional: 
+    //calcolare 20% sconto se < 17
+    //calcolare 40% sconto se > 65
+
+    //CALCOLARE PREZZO FINALE (prezzo biglietto - sconto)
+
+    // STAMPARE PREZZO FINALE
 
 });
-// CALCOLO LO SCONTO
 
-// CALCOLO IL PREZZO FINALE (prezzo biglietto - sconto)
-
-// STAMPO IL PREZZO FINALE
 
 
 
