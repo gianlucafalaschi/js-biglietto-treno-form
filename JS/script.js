@@ -35,8 +35,23 @@ generateButton.addEventListener('click', function() {
     const priceTicket = parseInt(`${userKm * priceKm}`);
     console.log('ticketprice', priceTicket);
     // sconto con conditional: 
-    //calcolare 20% sconto se < 17
+    let discount; 
+    //calcolare 20% sconto se < 18
+    if (userAge < 18) {
+        discount = priceTicket * 20 / 100;
+        console.log('discount20%' , discount);
+
+    } 
     //calcolare 40% sconto se > 65
+    else if (userAge > 65) {
+        discount = priceTicket * 40 / 100;
+        console.log('discount40%', discount);
+    }
+    //calcolare 0 sconto in tutti gli altri casi
+    else {
+        discount = 0;
+        console.log('nodiscount', discount);
+    }
 
     //CALCOLARE PREZZO FINALE (prezzo biglietto - sconto)
 
