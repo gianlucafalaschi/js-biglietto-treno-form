@@ -38,10 +38,15 @@
 /* --------
    COLUMN
 ----------*/
-.col-33 {
+.col-50 {
     padding-left: 10px;
     padding-right: 10px;
-    width: calc(100% / 3);
+    width: 50%;
+}
+.col-100 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
 }
 
 
@@ -80,6 +85,10 @@
     margin-bottom: 10px;
 }
 
+.mt-10 {
+    margin-top: 10px;
+}
+
 /* --------
    BUTTONS
 ----------*/
@@ -106,6 +115,7 @@
 
 .form-container {
     display: flex;
+    flex-wrap: wrap;
     padding: 20px 0;
     background-color: white;
     border-radius: 8px;
@@ -118,13 +128,13 @@
     
 }
 
-.col-33.flex-center {
+.col-50.flex-center {
     display: flex;
     justify-content: center;
 }
 
-.col-33.flex-center.align-start {
-    align-items: flex-start;
+.col-100.flex-center {
+    text-align: center;
 }
 
 /* ----------------
