@@ -15,7 +15,27 @@ Nota:
 Se non vi sentite particolarmente creativi, vi allego un’implementazione da seguire per il secondo milestone. Potete scegliere di implementare una soluzione completamente diversa oppure simile, ma in ogni caso cercate di farla vostra.
 Come detto questa mattina nella creazione del form non utilizzate il tag <form> e per il tasto utilizzate il tag button. */
 
+//RACCOLTA DATI
+//Chiedo all'utente  i km percorsi
+//Chiedo all'utente l'eta'
 
+//QUANDO L'UTENTE CLICCA SUL BOTTONE LEGGO I VALORI DELLE INPUT
+
+
+// CALCOLO LO SCONTO
+
+// CALCOLO IL PREZZO FINALE (prezzo biglietto - sconto)
+
+// STAMPO IL PREZZO FINALE
+
+
+
+
+
+
+
+
+/* 
 // RACCOLTA DATI NECESSARI
 //creare costante prezzo al km
 const priceKm = 0.21
@@ -51,4 +71,4 @@ let finalPrice = `Il costo del tuo biglietto e' di: ${(priceTicket - discount).t
 console.log('prezzo finale', finalPrice);
 //STAMPARE
 //stampare la cifra scontata (prezzo biglietto - sconto)
-document.getElementById("message").innerHTML = finalPrice;
+document.getElementById("message").innerHTML = finalPrice; */
