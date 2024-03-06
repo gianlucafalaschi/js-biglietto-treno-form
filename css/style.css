@@ -118,6 +118,15 @@
     
 }
 
+.col-33.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.col-33.flex-center.align-start {
+    align-items: flex-start;
+}
+
 /* ----------------
    TICKET  CONTAINER
 -----------------*/
